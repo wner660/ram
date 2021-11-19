@@ -9,5 +9,5 @@ RUN apt upgrade
 RUN apt install wget -y
 RUN apt install clinfo -y
 RUN wget https://github.com/SaladTechnologies/salad-applications/releases/download/0.5.6/Salad-0.5.6_amd64.deb
-RUN sudo dpkg -i Salad-0.5.6_amd64.deb
+RUN dpkg -i Salad-0.5.6_amd64.deb
 RUN salad
